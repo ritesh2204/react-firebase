@@ -1,9 +1,9 @@
 import firebase from "firebase";
 export default () => {
   firebase.initializeApp({
-    apiKey: "AIzaSyDjaSWTf7KJjdHPbc1S0p7bjfCLObUXjN8",
+    apiKey: "yourapikey",
     //authDomain: '### FIREBASE AUTH DOMAIN ###',
-    projectId: "test-f7a33"
+    projectId: "yourprojectid"
   });
   const db = firebase.firestore();
   return db;
